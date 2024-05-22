@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="styles.css">
+
+        <title>VinzNatzuka</title>
+
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <a href="#" class="logo"><img src="Icons/Designer (3).jpeg"
+                        alt="Logo"></a>
+
+                <input type="checkbox" id="check">
+                <label for="check" class="icons">
+                    <i class='bx bx-menu' id="menuicon"></i>
+                    <i class='bx bx-x' id="closeicon"></i>
+                </label>
+
+                <nav class="navbar" id="navbar">
+                    <a href="#hero" style="--i:0">Home</a>
+                    <a href="#about" style="--i:1">About</a>
+                    <a href="#timeline" style="--i:2">Experience</a>
+                    <a href="#skills" style="--i:3">Skills</a>
+                    <a href="#portfolio" style="--i:4">Portfolio</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero" id="hero">
+            <h1>WELCOME ROCKETS</h1>
+            <p>I'm Vincent Julyan, a fresh graduate and coder who is still
+                learning and growing up with technology.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/vincent-julyan"
+                    class="social-icon" target="_blank"><img
+                        src="Icons/icons8-linkedin.svg"
+                        alt="LinkedIn"></a>
+                <a href="https://facebook.com/vincent.adipati.dolken"
+                    class="social-icon" target="_blank"><img
+                        src="Icons/icons8-facebook.svg"
+                        alt="Facebook"></a>
+                <a href="https://instagram.com/vincent.julyan"
+                    class="social-icon" target="_blank"><img
+                        src="Icons/icons8-instagram.svg"
+                        alt="Instagram"></a>
+                <a href="https://github.com/VinzNatzuka"
+                    class="social-icon" target="_blank"><img
+                        src="Icons/icons8-github.svg"
+                        alt="LinkedIn"></a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img
+                        src="Icons/Pict1.png"
+                        alt="Foto Profil">
+                </div>
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>A Fresh Graduate Bachelor's degree in Computer Science
+                        from Nusa Mandiri University with a GPA 3.81,
+                        Although I have not had significant organizational
+                        experience yet, but I have developed a strong
+                        educational foundation in my field. I have a bit of work
+                        experience that has broadened my understanding
+                        of the world of work.</p>
+                    <a href="cv_anda.pdf" class="download-cv-button">Download
+                        CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="timeline" id="timeline">
+            <h2>Timeline</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <img src="Icons/Edu1.png" alt="Event Image"
+                            class="timeline-image">
+                        <div class="timeline-text">
+                            <h3>Universitas Nusa Mandiri</h3>
+                            <p>August 2019 - August 2023</p>
+                            <button class="detail-btn"
+                                data-modal="modal1">Detail >>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <img src="Icons/Logo2.png" alt="Event Image"
+                            class="timeline-image">
+                        <div class="timeline-text">
+                            <h3>Sorting Hub Kapuk</h3>
+                            <p>October 2022 - November 2022</p>
+                            <button class="detail-btn"
+                                data-modal="modal2">Detail >>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <img src="Icons/Edu2.png" alt="Event Image"
+                            class="timeline-image">
+                        <div class="timeline-text">
+                            <h3>SMK Tunas Bangsa</h3>
+                            <p>July 2015 - July 2018</p>
+                            <button class="detail-btn"
+                                data-modal="modal3">Detail >>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <img src="Icons/Logo1.jpg" alt="Event Image"
+                            class="timeline-image">
+                        <div class="timeline-text">
+                            <h3>PT. Pandaria Makmur</h3>
+                            <p>September 2018 - March 2019</p>
+                            <button class="detail-btn"
+                                data-modal="modal4">Detail >>></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal1">&times;</span>
+                <h2>Universitas Nusa Mandiri</h2>
+                <p>• Menguasai Microsoft Office (Word, Excel, dan
+                    PowerPoint).</p>
+                <p>• Mendapatkan nilai A di hampir semua mata kuliah,
+                    termasuk:</p>
+                <ul>
+                    <li>Web Programming</li>
+                    <li>Mobile Programming</li>
+                    <li>Game Mobile Development</li>
+                    <li>Arstektur Komputer</li>
+                    <li>Praktikum Jaringan Komputer</li>
+                </ul>
+                <p>• Membuka usaha enterpreneur sebagai syarat lulus mata kuliah
+                    Enterpreneur.</p>
+                <p>• Lulus dengan gelar Summa Cum Laude dengan IPK
+                    3.81/4.00.</p>
+            </div>
+        </div>
+
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal2">&times;</span>
+                <h2>Processing Create Package • (Internship)</h2>
+                <p>• Reporting incoming and outgoing data to each
+                    destination</p>
+                <p>• Creating daily reports Entering packaged goods data into
+                    the system</p>
+                <p>• Ensure that all secure entry or exit seals have been
+                    scanned for arrival or delivery</p>
+                <img
+                    src="https://plus.unsplash.com/premium_photo-1661901122974-e280f0c1efab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Image02">
+            </div>
+        </div>
+
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal3">&times;</span>
+                <h2>SMK Tunas Bangsa</h2>
+                <p>• Menjabat sebagai Ketua Kelas selama 3 tahun
+                    berturut-turut.</p>
+                <p>• Menjabat sebagai Sekretaris OSIS.</p>
+                <p>• Menjuarai lomba antar sekolah dalam bidang Bahasa Jepang
+                    Roleplay, meraih peringkat 1.</p>
+                <p>• Aktif sebagai atlet pencak silat.</p>
+                <p>• Menjabat sebagai Asisten Guru Praktikum Teknik Komputer dan
+                    Jaringan.</p>
+            </div>
+        </div>
+
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal4">&times;</span>
+                <h2>Production Operator • (Contract)</h2>
+                <p>• Carry out routine maintenance on machines at regular
+                    intervals to ensure optimal
+                    performance and prevent breakdowns</p>
+                <p>• Improve production efficiency by optimizing stable
+                    production speeds</p>
+                <p>• Contribute to the development and improvement of production
+                    processes by providing
+                    innovative ideas and suggestions
+                </p>
+                <p>• Operate machines smoothly and safely, resulting in high
+                    quality production</p>
+                <img
+                    src="https://plus.unsplash.com/premium_photo-1661946906973-b9d3ce2c6055?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Image01">
+            </div>
+        </div>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-list">
+                    <div class="softskills">
+                        <h3>Softskill</h3>
+                        <div class="skills-columns">
+                            <ul>
+                                <li>Communication</li>
+                                <li>Teamwork</li>
+                                <li>Problem-solving</li>
+                                <li>Time management</li>
+                                <li>Adaptability</li>
+                            </ul>
+                            <ul>
+                                <li>Creativity</li>
+                                <li>Work ethic</li>
+                                <li>Interpersonal skills</li>
+                                <li>Leadership</li>
+                                <li>Attention to detail</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hardskills">
+                        <h3>Hardskill</h3>
+                        <div class="skills-columns">
+                            <ul>
+                                <li>Programming</li>
+                                <li>Web Development</li>
+                                <li>Database Management</li>
+                                <li>Data Analysis</li>
+                                <li>Project Management</li>
+                            </ul>
+                            <ul>
+                                <li>Network Security</li>
+                                <li>System Administration</li>
+                                <li>SEO</li>
+                                <li>Machine Learning</li>
+                                <li>Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="tech-slide">
+                    <img src="Icons/HTML.png" alt="Logo">
+                    <img src="Icons/CSS.png" alt="Logo">
+                    <img src="Icons/JavaScript.png" alt="Logo">
+                    <img src="Icons/PHP.png" alt="Logo">
+                    <img src="Icons/Java.png" alt="Logo">
+                    <img src="Icons/React.png" alt="Logo">
+                    <img src="Icons/Vue.png" alt="Logo">
+                    <img src="Icons/Node.png" alt="Logo">
+                    <img src="Icons/MySQL.png" alt="Logo">
+                    <img src="Icons/CodeIgniter.png" alt="Logo">
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Image 1">
+                    <h3>Project Title 1</h3>
+                    <p>Short description of the project.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="portfolio-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1573868396123-ef72a7f7b94f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Image 2">
+                    <h3>Project Title 2</h3>
+                    <p>Short description of the project.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="portfolio-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1573166364266-356ef04ae798?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Image 3">
+                    <h3>Project Title 3</h3>
+                    <p>Short description of the project.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="portfolio-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Image 4">
+                    <h3>Project Title 4</h3>
+                    <p>Short description of the project.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="portfolio-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Image 5">
+                    <h3>Project Title 5</h3>
+                    <p>Short description of the project.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="portfolio-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1530435460869-d13625c69bbf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Image 6">
+                    <h3>Project Title 6</h3>
+                    <p>Short description of the project.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            <div class="footer-container">
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/vincent-julyan"
+                            class="social-icon" target="_blank"><img
+                                src="Icons/icons8-linkedin.svg"
+                                alt="LinkedIn"></a>
+                        <a href="https://facebook.com/vincent.adipati.dolken"
+                            class="social-icon" target="_blank"><img
+                                src="Icons/icons8-facebook.svg"
+                                alt="Facebook"></a>
+                        <a href="https://instagram.com/vincent.julyan"
+                            class="social-icon" target="_blank"><img
+                                src="Icons/icons8-instagram.svg"
+                                alt="Instagram"></a>
+                        <a href="https://github.com/VinzNatzuka"
+                            class="social-icon" target="_blank"><img
+                                src="Icons/icons8-github.svg"
+                                alt="LinkedIn"></a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Me</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="form-col">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name"
+                                        required>
+                                </div>
+                                <div class="form-col">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone"
+                                        required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4"
+                                required></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vincent Julyan. Made with Existing Knowledge 🍀
+                    and
+                    Resources ❤️️.</p>
+            </div>
+        </footer>
+
+    </body>
+    <script src="script.js"></script>
+</html>
