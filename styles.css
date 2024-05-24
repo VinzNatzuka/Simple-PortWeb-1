@@ -250,6 +250,7 @@ body {
 
 .modal-content ul {
     padding-left: 20px;
+    text-align: left;
     /* Menggeser seluruh daftar ke kanan */
 }
 
@@ -794,6 +795,12 @@ body {
 
     .download-cv-button:hover {
         background-color: #1F2023;
+    }
+
+    .modal-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 
     .timeline-container::before {
